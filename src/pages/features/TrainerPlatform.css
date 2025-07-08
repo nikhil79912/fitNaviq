@@ -1,0 +1,73 @@
+.trainer-platform-page {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+  font-family: "Segoe UI", sans-serif;
+  color: #e1f4f3;
+  background-color: #101820;
+  border-radius: 12px;
+  box-shadow: 0 0 10px #1e3c35;
+}
+
+.trainer-header h1 {
+  font-size: 2.5rem;
+  color: #f2a365;
+  margin-bottom: 0.3rem;
+}
+
+.tagline {
+  font-size: 1.2rem;
+  color: #a7c2b9;
+  margin-bottom: 2rem;
+}
+
+.trainer-section {
+  margin-bottom: 2rem;
+}
+
+.trainer-section h2 {
+  color: #ffd56b;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.trainer-section p {
+  margin-bottom: 0.5rem;
+}
+
+.trainer-section ul {
+  list-style-type: none;
+  padding-left: 1rem;
+}
+
+.trainer-section ul li {
+  margin-bottom: 0.4rem;
+  padding-left: 1rem;
+  position: relative;
+}
+
+.trainer-section ul li::before {
+  content: "✔️";
+  position: absolute;
+  left: 0;
+}
+
+.trainer-footer {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.cta-button {
+  background-color: #f2a365;
+  color: #101820;
+  border: none;
+  padding: 0.8rem 2rem;
+  border-radius: 30px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.cta-button:hover {
+  background-color: #ff914d;
+}

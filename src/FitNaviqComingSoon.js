@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import "./FitNaviqComingSoon.css"; // You can put your custom styles here
-import logo from "./fitNaviq_logo.png";
+// import logo from "./fitNaviq_logo.png";
 import whatapp from "./whatsapp_logo.png";
 import insta from "./insta_logo.png";
 
@@ -21,12 +21,12 @@ const FitNaviqComingSoon = () => {
   return (
     <div className="coming-soon-container">
       <header className="header">
-        <img
+        {/* <img
           onClick={() => setShowFoundersPen(!showFoundersPen)}
           src={logo}
           alt="FitNaviq Logo"
           className="logo"
-        />
+        /> */}
       </header>
 
       <main className="main-content">
