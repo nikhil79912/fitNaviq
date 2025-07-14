@@ -1,0 +1,51 @@
+.dashboard-container {
+  padding: 2rem;
+  color: #e1f4f3;
+  background-color: #101820;
+  min-height: 100vh;
+}
+
+.dashboard-options {
+  display: flex;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.dashboard-options button {
+  padding: 10px 18px;
+  background-color: #63e6be;
+  border: none;
+  color: #101820;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.dashboard-options button:hover {
+  background-color: #45c9a1;
+}
+
+.form-panel {
+  background-color: #1c2b38;
+  padding: 1.5rem;
+  border-radius: 10px;
+  max-width: 500px;
+}
+
+.form-panel input {
+  display: block;
+  width: 100%;
+  margin: 1rem 0;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.form-panel button {
+  background-color: #63e6be;
+  color: #101820;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 6px;
+  border: none;
+}
